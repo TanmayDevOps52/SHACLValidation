@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://example.org/person/1",
+      "@type": "schema:Person",
+      "schema:birthDate": "1990-01-01"
+    },
+    {
+      "@id": "http://example.org/person/2",
+      "@type": "schema:Person",
+      "schema:birthDate": "1990-01-01",
+      "schema:name": 12345
+    }
+  ]
+}
